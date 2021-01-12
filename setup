@@ -1,0 +1,9 @@
+from setuptools import setup
+
+setup(
+    name = "Halfbrick Project",
+    version = "0.0.1",
+    description = "Application for programming role",
+    py_modules = ["csv_data_summary", "csv_to_json", "csv_to_sql"],
+    package_dir = {"": "src"},
+)
